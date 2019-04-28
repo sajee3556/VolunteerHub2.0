@@ -22,11 +22,12 @@ class AddPost extends Component {
             userName
         };
 
-        //// SUBMIT CONTACT ////
+        //// SUBMIT CONTACT ///
         this.props.addPost(newPost);
 
         // Clear State
         this.setState({
+            showContactInfo: false,
             postTitle: '',
             postBody: '',
             userName: ''

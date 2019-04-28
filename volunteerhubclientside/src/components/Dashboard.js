@@ -4,6 +4,7 @@ import {getPosts} from "../actions/volunteerPostsActions";
 import Spinner from "../layouts/Spinner";
 import Posts from "../Posts/Posts";
 import AddPost from "../Posts/AddPost";
+import SlideShow from "./slideshow/SlideShow";
 
 class Dashboard extends Component {
 

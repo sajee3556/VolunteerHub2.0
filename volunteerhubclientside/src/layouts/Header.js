@@ -19,6 +19,11 @@ const Header = props => {
                             </Link>
                         </li>
                         <li className="nav-item">
+                            <Link to="/gallery" className="nav-link">
+                                <i className="fa fa-folder-open">Event Gallery</i>
+                            </Link>
+                        </li>
+                        <li className="nav-item">
                             <Link to="/about" className="nav-link">
                                 <i className="fas fa-question">About</i>
                             </Link>

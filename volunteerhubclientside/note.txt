@@ -1,0 +1,22 @@
+app gallery = https://www.youtube.com/watch?v=1tgQk94SoBU
+
+https://www.youtube.com/watch?v=mxK8b99iJTg
+
+Redux: https://www.youtube.com/watch?v=3sjMRS1gJys
+
+    How redux works?
+    *CreateStore , CombinedReducers => Redux
+
+    dispatch({                      //this belongs to store : store.dispatch() -> submit to reducers
+            type: ADD_POST,         // reducers check type and update state
+            payload: res.data
+        }); =>
+
+        case ADD_POST:
+                    return {                        //store.getState()
+                        ...state,
+                        posts: [action.payload, ...state.posts]
+                    }; //add post to existing posts list and return
+
+            React Hooks 
+
